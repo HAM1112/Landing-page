@@ -1,0 +1,158 @@
+body{
+    background-color: #e5e7eb;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    display: block;
+}
+
+h2{
+    text-align: center;
+    color: #1f2937;
+}
+
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px 200px;
+}
+
+/* header logo starts */
+
+.logo{
+    display: flex;
+    margin: 5px 50px 5px;
+    padding: 10px;
+    height: 10px;
+}
+
+.logo div{
+    flex: 1;
+}
+
+.logo .logo1{
+    flex: 5 1 0%;
+}
+
+/* header content starts */
+
+.content{
+    flex: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.content h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.content div{
+    flex: 1;
+}
+
+.content img{
+    width: 400px;
+    height: auto;
+}
+
+.content button{
+    background-color: #3882f6;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+/* first part of middle part starts here */
+
+.middlerow{
+    padding: 20px;
+    margin: 0px 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.middlerow .image{
+    flex: 1;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.middlerow img{
+    width: 150px;
+    align-items: center;
+    border: 5px  solid grey;
+    border-radius: 25px;
+    box-shadow: 7px 7px 10px darkslategrey;
+}
+
+/* second part of middle starts here ( third part ) */
+
+.middle2{
+    margin: 200px 300px 50px 300px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+.middle2 div{
+    text-align: right;
+    font-weight: bold;
+}
+
+/* last part */
+
+.last{
+    padding: 60px 120px;
+    background-color: white;
+    color: #e5e7eb;
+}
+
+.outerbox{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 30px 80px;
+}
+
+.innerboxone{
+    flex: 2 1 0%;
+}
+
+.innerboxtwo{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerboxtwo .but{
+    padding: 10px 50px;
+    border: 4px solid #e5e7eb;
+    border-radius: 15px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+/* footer  */
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 10px;
+    color: #e5e7eb;
+}
